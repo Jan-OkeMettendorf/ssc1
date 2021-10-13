@@ -2,6 +2,10 @@ import {BrowserRouter as Router, Switch} from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./components/pages/Home";
 import { createGlobalStyle } from "styled-components"
+import Groups from "./components/pages/Groups";
+import groupJSON from "./components/groups.json"
+import GroupDetailPage from "./components/pages/GroupDetailPage"
+import RoutedPages from "./components/RoutedPages";
 
 const GlobalStyle = createGlobalStyle`
   
@@ -17,17 +21,12 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
+console.log('GroupJSON', groupJSON)
+
 function App() {
   return (
     <div className="App">
-    <Router>
-      <Navigation/>
-      <Switch>
-        <Router path="/" exact>
-          <Home/>
-        </Router>
-      </Switch>
-    </Router>
+      <RoutedPages/>
       <GlobalStyle/>
     </div>
   );

@@ -27,6 +27,11 @@ const NavBarData = [
         icon: <Icons.HiLogin/>,
         path: "/login"
     },
+    {
+        title: "Group",
+        icon: <Icons.HiLogin/>,
+        path: "/group"
+    },
 
 ]
 
