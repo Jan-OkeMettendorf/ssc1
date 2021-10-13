@@ -1,9 +1,14 @@
 import styled from "styled-components/macro";
 import {useParams} from "react-router-dom";
+import {useEffect} from "react";
 
-function GroupDetailPage(props){
+function GroupDetailPage(){
 
     const {id} = useParams()
+
+    useEffect(()=>{
+
+    },[id])
 
     return(
         <StyledContainer>
