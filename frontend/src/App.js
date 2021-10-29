@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { createGlobalStyle } from "styled-components"
+import groupJSON from "./components/groups.json"
+import RoutedPages from "./components/RoutedPages";
+
+const GlobalStyle = createGlobalStyle`
+  
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  html {
+    width: 100%;
+    height: 100%;
+  }
+`
+
+console.log('GroupJSON', groupJSON)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <RoutedPages/>
+        <GlobalStyle/>
+      </div>
   );
 }
 
