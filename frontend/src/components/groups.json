@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "title": "Group1",
+        "sport": "football",
+        "CountOfMember": 12,
+        "Date": "2021-10-11",
+        "DateTime": "00:10:00",
+        "participationFee": "5 EUR",
+        "region": "Hamburg",
+        "location" : "Musterstraße 1",
+        "member": [
+            {
+                "firstName": "Mona",
+                "LastName": "Mettendorf",
+                "e-mail": "asd@asd.de",
+                "e-mail-hidden": true,
+                "mobilNumber": null,
+                "mobilNumber-hidden": true,
+                "bringsBall": true,
+                "bringsBeer": true
+            },
+            {
+                "firstName": "Jan-Oke",
+                "LastName": "Mettendorf",
+                "e-mail": "asd@asd.de",
+                "e-mail-hidden": true,
+                "mobilNumber": "120581ß0",
+                "mobilNumber-hidden": true,
+                "bringsBall": true,
+                "bringsBeer": true
+            }]
+
+    },
+    {
+        "id": "2",
+        "title": "Group2",
+        "sport": "basketball",
+        "CountOfMember": 10,
+        "Date": "2021-10-12",
+        "DateTime": "00:12:00",
+        "participationFee": "10 EUR",
+        "region": "Hamburg",
+        "location" : "Musterstraße 1",
+        "member": [
+            {
+                "firstName": "Jan-Oke",
+                "LastName": "Mettendorf",
+                "e-mail": "asd@asd.de",
+                "e-mail-hidden": true,
+                "mobilNumber": "120581ß0",
+                "mobilNumber-hidden": true,
+                "bringsBall": true,
+                "bringsBeer": true
+            }]
+    }
+]
